@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body {
+    font-size: 100%;
+    background-image: radial-gradient(#000000, #B93590,#E33F5F);
+    background-attachment: fixed; /*Uma imagem de fundo que não irá rolar com a página (fixa):*/
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row; /*direcao em forma de linha */
+    align-items: center;
+    justify-content: space-around; /* Espaço entre nossos itens menu*/
+    padding: 24px;
+}
+.cabecalho-imagem {
+    width: 60px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px; /* distância entre os elementos*/
+
+}
+.cabecalho-menu-item {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px; /*tamanho do texto*/
+
+}
+.conteudo {
+
+    margin-bottom: 45px; /* margem antes do footer*/
+    border-top: 0.5px solid;
+    color: #000000;
+}
+.conteudo-principal {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*centraliza as duas coisas*/
+    justify-content: space-around; /*espaço entre si, ajusta os posicionamentos certo*/
+}
+.conteudo-principal-escrito {
+    display: flex; /*deixa na horizontal*/
+    flex-direction: column; /* deixa em coluna*/
+    gap: 30px;
+
+}
+.conteudo-principal-escrito-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #FFFFFF;
+}
+.conteudo-principal-escrito-subtitulo {
+    color: #FFFFFF;
+}
+.conteudo-principal-escrito-botao {
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+    background-color: hsl(240, 4%, 5%);
+
+    border-radius: 5px;
+
+    width: 250px;
+    height: 50px;
+}
+.conteudo-principal-imagem {
+    width: 200px;
+    
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7 ;
+
+    padding-top: 30px;
+    margin-top: 50px; /*titulo até a linha*/
+
+}
+.conteudo-secundario-paragrafo {
+    font-size: larger;
+    color: #FFFFFF;
+}
+.rodape {
+    border-top: 0.4px solid #FFF2E7 ;
+    padding: 32px;
+
+}
+.rodape-imagem {
+    height: 48px;
+    display: block; /* 1 - utiliza todo o espaço dentro do elemento*/ /* PARA AJUSTAR APENAS 1 ELEMENTO USAMOS ESSES 2 TIPOS*/
+    margin: 0 auto; /* 2- automaticamente deixa 0 para os lados e centraliza a imagem*/
+
+}
