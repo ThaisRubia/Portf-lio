@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    padding-top: 25px;
+    background-image: linear-gradient(45deg, #B93590, #FFFFFF,#E33F5F);
+    background-attachment: fixed;
+
+}
+.conteudo-projetos {
+    padding-top: 25px;
+    
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo-projetos-titulo {
+    padding-top: 25px;
+    padding: 10px 10px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}
+.conteudo-projeto-subtitulo {
+    margin-top: 25px;
+
+    color: #926239;
+}
+.conteudo-projeto-imagem {
+    height: 250px;
+}
+.conteudo-projeto-paragrafo {
+    color: #000000;
+
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    padding: 10px 10px;
+}
+.github {
+    font-size:x-large ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conteudo-projeto-dois {
+    padding-top: 25px;
+
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.conteudo-projeto-dois-titulo {
+    padding-top: 25px;
+    padding: 10px 10px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+}

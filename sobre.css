@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: linear-gradient(#000000 9%, #B93590 16%,#E33F5F);
+    background-image: linear-gradient(#000000 9%, #B93590 30%,#E33F5F);
 }
 .conteudo {
     display: block;
@@ -22,6 +22,7 @@ body {
 }
 .conteudo-sobre {
     color: white;
+    margin: 20px;
 }
 .conteudo-sobre-paragrafo {
     font-size: 25px;
@@ -34,6 +35,7 @@ body {
 }
 .conteudo-principal-escrito-titulo {
     color: white;
+    margin: 20px;
 }
 .conteudo-principal-escrito-paragrafo {
     font-size: 25px;
@@ -45,6 +47,7 @@ body {
 }
 .conteudo-secundario-escrito-titulo {
     color: white;
+    margin: 20px;
 }
 .conteudo-secundario-escrito-paragrafo {
     font-size: 25px;
