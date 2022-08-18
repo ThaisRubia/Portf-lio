@@ -75,3 +75,15 @@ p {
 .conteudo-projeto-quatro {
     height: 380px;
 }
+.botao {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.botao-voltar {
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+}
