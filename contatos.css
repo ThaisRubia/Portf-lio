@@ -1,0 +1,36 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contatos {
+    display: block;
+    font-style: italic;
+    padding: 10px 10px;
+}
+.conteudo-celular-imagem {
+    width: 100px;
+}
+.conteudo-redes {
+    display: inline-block;
+    top: 5px;
+    padding: 0 0 10px;
+    align-items: center;
+    
+}
+.conteudo-redes-linkedin {
+    padding-top: 10px 10px;
+    font-size: large;
+    font: 700;
+    color: #0d47a1;
+}
+.conteudo-redes-imagem {
+    padding-top: 15px;
+    width: 150px;
+}
+.img {
+    padding-top: 10px 10px;
+    
+
+}
